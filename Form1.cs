@@ -4,7 +4,7 @@ using System.Net;
 using System.Text;
 using System.Windows.Forms;
 
-namespace cs_form_framework_net_text {
+namespace cs_form_net_text {
 
     public partial class Form1 : Form {
 
