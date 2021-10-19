@@ -15,6 +15,8 @@ namespace cs_form_net_text {
 
         private void read_button_Click(object sender, EventArgs e)
         {
+            Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
+
             try
             {
                 // インターネットアクセス用クラス( WebClient )
